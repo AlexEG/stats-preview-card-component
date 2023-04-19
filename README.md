@@ -4,7 +4,10 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 
 [Live site URL](https://guileless-fairy-6adaab.netlify.app/)
-https://youtu.be/AGfkDWRXZx4
+
+[YouTube Demo](https://youtu.be/AGfkDWRXZx4)
+
+
 ![Alt text](public/images/localhost_5173_.png)
 
 ### Built with
