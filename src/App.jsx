@@ -8,9 +8,9 @@ import headerMobile from "./assets/image-header-mobile.jpg";
 function App() {
   return (
     <div className="App bg-main-bg h-screen flex justify-center items-center">
-      <main className="w-[37.375rem] lg:w-[72.375rem] h-[48.9375rem] lg:h-[30.9rem] grid grid-col-1 grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 bg-card-bg over overflow-hidden rounded-lg">
+      <main className=" w-[327px] lg:w-[72.375rem] h-[48.9375rem] lg:h-[29.9rem] grid grid-col-1 grid-rows-3 lg:grid-rows-1 lg:grid-cols-2 bg-card-bg over overflow-hidden rounded-lg">
         {/* IMG part */}
-        <section className="lg:col-start-2 relative">
+        <section className="lg:col-start-2 row-start-1 row-end-2 relative">
           <picture className="before:bg-bg-accent before:absolute before:inset-0 before:opacity-20">
             <source media="(min-width: 54.6875em)" srcset={headerDesktop} />
             <img
@@ -37,7 +37,7 @@ function App() {
           </p>
           <ul
             role="list"
-            className="mt-[4.375rem] flex flex-wrap justify-center gap-10 text-white  lg:gap-[3.75rem] text-2xl font-bold lg:justify-start"
+            className="mt-5 lg:mt-24 flex-col flex lg:flex-row justify-center gap-5 text-white  lg:gap-[3.75rem] text-2xl font-bold lg:justify-start"
           >
             <li role="listitem" className="mr-[0.3125rem]">
               <p className="flex flex-col gap-1.5">
